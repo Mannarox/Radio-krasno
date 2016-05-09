@@ -1,0 +1,288 @@
+/*//my css*/
+
+@font-face { /* connect font */
+    font-family: Trebuchet-MS; /* font name */
+    src: url(/wp-content/themes/RadioKrasno/font/Trebuchet-MS-Regular.ttf); /* the path to the font */
+}
+
+html{
+	height:100%;
+}
+body{
+	background-color:#eaeaea;
+	font-family: Trebuchet-MS;
+	height:100%;
+}
+.row{
+	margin:0px;
+}
+/*//////////////////////////////////*/
+/*//////////////HEADER//////////////*/
+.header {
+	margin:0 5% 0 5%;
+}
+
+.view-on-Krasnoarmeysk {
+	height:150px;
+	background-size: cover;
+	background-image:url(/wp-content/themes/RadioKrasno/images/winter.jpg);
+}
+
+/*.navigation {*/
+/*	padding:10px 5% 10px 5%;*/
+/*	list-style-type: none;*/
+/*	font-size:21px;*/
+/*	background-color:#af0000;*/
+/*	margin-bottom: 20px;*/
+/*}*/
+/*.navigation li{*/
+/*	display: inline-block;*/
+/*	color:white;*/
+/*	margin-right:50px;*/
+/*	margin-left:1%;*/
+/*}*/
+/*.navigation a {*/
+/*	color:black;*/
+/*}*/
+nav div{
+	padding:10px 5% 2px 2%;
+	background-color:#af0000;
+	/*margin-bottom: 20px;*/
+}
+nav div ul li {
+	list-style:none;
+	display: inline-block;
+	margin-right:50px;
+	margin-left:1%;
+	font-size: 21px;
+	text-transform:lowercase;
+}
+
+nav a {
+	color:black;
+}
+nav a:hover {
+	color:black;
+}
+
+nav li.current-menu-item a:visited{
+	color:white;
+}
+
+/*/////////HEADER/////END//////////*/
+
+
+/*////////////////////////////////*/
+/*/////////////FOOTER/////////////*/
+.footer {
+	padding: 20px 30px 15px 30px;
+	background-color:#5a5257;
+	margin:0 5% 0 5%;
+	font-size:12px;
+}
+
+.footer__copyright {
+	color:#b4b4b4;
+	margin-bottom:0px;
+}
+.footer__author {
+	color:#b4b4b4;
+	text-align:right;
+	margin-bottom:0px;
+}
+/*///////FOOTER///////END////////*/
+
+.main-content{
+	margin: 0px 5% 0px 5%;
+	background-color:white;
+	padding-top:20px;
+}
+
+.shortly-panel{
+	background-color:#f1e6ec;
+	/*margin-left:1%;*/
+	padding:0px;
+	margin-bottom: 20px;
+	/*width:74%;*/
+}
+.shortly-panel__color-block{
+	width:50px;
+	height:150px;
+	margin-right:20px;
+	background-size: cover;
+	background-image:url(/wp-content/themes/RadioKrasno/images/shortly.jpg);
+	display:inline-block;
+}
+.shortly-panel__text{
+	display:inline-block;
+	width:40%;
+	vertical-align: top;
+	margin-right:5%;
+}
+
+.widget-row{
+	display: inline;
+}
+.panel-widgets{
+}
+#logo{
+	width:100%;
+	margin-bottom:20px;
+}
+#widget-weather{
+	width:100%;
+	height:150px;
+	margin-bottom:50px;
+}
+.widget-weather__link{
+	width:100%; 
+	height: 15px; 
+	font-size: 14px;
+	margin-top:20px;
+	display:block;
+}
+
+
+#interview{
+	/*height:150px;*/
+	margin-bottom: 20px;
+}
+.interview__header{
+	font-size:18px;
+	color:#9f0101;
+}
+.interview__question{
+	font-size:16px;
+}
+.interview__answer{
+	width: 85%;
+	display: inline-block;
+	font-size:18px;
+	vertical-align:top;
+	margin-left:5%;
+	/*float:left;*/
+}
+.interview__checkbox{
+	padding-top: 10px;
+	margin:10px;
+}
+#vk_groups{
+	margin-bottom:20px;
+	width:100%;
+}
+
+#excerption{
+	margin-bottom: 40px;
+}
+.excerption__header{
+	color:#9f0101;
+}
+.excerption__quotation{
+	font-size:14px;
+	font-style: italic;
+}
+.excerption__signature{
+	font-size:14px;
+}
+
+/*////////////////////////////////////*/
+/*////////ANNOUNCMENT BLOCK///////////*/
+.announcement{
+	width:100%;
+	height:100%;
+	position: relative;
+	margin-bottom: 20px;
+}
+.announcement__photo{
+	width:50%;
+	height:300px;
+	position: relative;
+	z-index: 2;
+}
+#announcement__photo1{
+display:none;
+}
+.announcement__inform{
+	position:absolute;
+	width:52.5%;
+	height:50%;
+	display: inline-block;
+	margin-left:-3.0%;
+}
+	.announcement__inform_shell{
+		position: relative;
+		left: 20px;
+		width:96%;
+		height:100%;
+	}
+	.announcement__inform__arrow{
+		position:absolute;
+		vertical-align: top;
+		height: 150px;
+	}
+	.announcement__inform__header{
+		position:absolute;
+		/*width:100%;*/
+		color:#9f0101;
+		font-size:21px;
+		padding:0px 20px 0px 0px;
+		left:20px;
+	}
+	.announcement__inform__text{
+		top:30%;
+		position:absolute;
+		font-size:12px;
+		padding: 0px 20px 0px 0px;
+		left:20px;
+	}
+	.announcement__inform__time{
+		left: 20px;
+		top:27%;
+		position:relative;
+		}
+	.announcement__inform__names{
+		left: 20px;
+		top:25%;
+		position:relative;
+		/*width:50%;*/
+	}
+	.announcement__inform__week-days{
+		left: 70%;
+		top:45%;
+		position:absolute;
+	}
+#announcement__inform1{
+	/*color:white;*/
+	z-index: 2;
+}
+#announcement__inform2{
+	top:50%;
+	/*display: none;*/
+}
+#announcement__inform_shell1{
+	background-color:#9f0101;
+	color:white;
+}
+/*////////ANNOUNCMENT BLOCK/////END//////*/
+
+.news{
+	width:48%;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.news__image{
+	width:44%;
+}
+.news__text{
+	width:52%;
+	/*margin-left: 2%;*/
+	padding:0 2% 0 2%;
+	display:inline-block;
+	vertical-align: top;
+	font-size: 13px;
+}
+.news__text-without-image{
+	width:100%;
+	padding:0 2% 0 0%;
+	font-size: 13px;
+}
